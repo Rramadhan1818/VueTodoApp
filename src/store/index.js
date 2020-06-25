@@ -5,6 +5,15 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+  	'title' : "SuperTodos",
+  	todos : [{
+  		title : 'lari pagi',
+  		done : false,
+  	},
+  	{
+  		title : 'Makan Pagi',
+  		done : false,
+  	}]
   },
   mutations: {
   },
